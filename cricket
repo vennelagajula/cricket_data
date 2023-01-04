@@ -1,0 +1,9 @@
+data Cricket = Pitch 
+             | Ground 
+             | Bat 
+             | Ball 
+             | Gloves
+         deriving Show
+cricketdata :: Cricket -> Bool
+cricketdata Ground = True   
+cricketf = print(cricketdata Ground)
